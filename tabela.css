@@ -1,0 +1,29 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td{
+    border: 5px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #8595b3;
+}
+
+tr:nth-child(even){
+    background-color: #70c2a0;
+}
+
+tr:hover{
+    background-color: rgb(67, 92, 139);
+}
+
+.filme{
+    width: 10%;
+    display: inline-flex;
+    margin-left: 10px;
+}
